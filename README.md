@@ -1,5 +1,3 @@
-
-
 ## Awesome Visualization
 
 An awesome-style curated list for **Visualization / Visual Analytics / Scientific Visualization / Data Visualization**.
@@ -64,17 +62,21 @@ You can also open an issue to:
 
 Use a **single table row** as the canonical format (consistent with all sections below):
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2025 | VIS | Paper title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | tag1, tag2 |
+
+| Year | Venue | Title       | Paper           | Project           | Code           | Tags       | My take      |
+| ---- | ----- | ----------- | --------------- | ----------------- | -------------- | ---------- | ------------ |
+| 2025 | VIS   | Paper title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | tag1, tag2 | (your notes) |
+
 
 Conventions:
+
 - **Paper**: prefer official PDF / arXiv / publisher.
 - **Code**: prefer official repo; mark reproductions clearly if needed.
 - **Project**: homepage / demo / video.
 - **Tags**: short and searchable (2–5 tags).
 
 Cross-referencing the same paper across multiple sections (recommended):
+
 - Put the **full row once** (the “main entry”) and add an anchor right above it: `<a id="paper-id"></a>`
 - In other sections, add a lightweight row pointing to it: `[See main entry](#paper-id)`
 - Suggested `paper-id` format: `venue-year-firstauthor-keyword` (e.g., `vis-2025-smith-chartqa`).
@@ -103,9 +105,11 @@ Cross-referencing the same paper across multiple sections (recommended):
 
 > Add must-read surveys/tutorials here; split later if needed.
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Survey/Tutorial | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | survey, tutorial |
+
+| Year | Venue           | Title | Paper           | Project           | Code           | Tags             | My take      |
+| ---- | --------------- | ----- | --------------- | ----------------- | -------------- | ---------------- | ------------ |
+| 20XX | Survey/Tutorial | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | survey, tutorial | (your notes) |
+
 
 ---
 
@@ -113,76 +117,98 @@ Cross-referencing the same paper across multiple sections (recommended):
 
 ### Foundations & design
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | theory, perception, design |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags                       | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | -------------------------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | theory, perception, design | (your notes) |
+
 
 ### Visual analytics & interaction
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | interaction, visual-analytics, system |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags                                  | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ------------------------------------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | interaction, visual-analytics, system | (your notes) |
+
 
 ### Explainability & model visualization
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | explainability, model-understanding |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags                                | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ----------------------------------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | explainability, model-understanding | (your notes) |
+
 
 ### Graph / network visualization
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | graph, network |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags           | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | -------------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | graph, network | (your notes) |
+
 
 ### Time series & event sequence visualization
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | time-series, event-sequence |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags                        | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | --------------------------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | time-series, event-sequence | (your notes) |
+
 
 ### High-dimensional visualization & DR
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | dimensionality-reduction, embedding |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags                                | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ----------------------------------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | dimensionality-reduction, embedding | (your notes) |
+
 
 ### Uncertainty visualization
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | uncertainty |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags        | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ----------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | uncertainty | (your notes) |
+
 
 ### Scientific visualization (SciVis)
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | scivis, volume-rendering, flow |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags                           | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ------------------------------ | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | scivis, volume-rendering, flow | (your notes) |
+
 
 ### Geo & spatiotemporal visualization
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | geo, spatiotemporal |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags                | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ------------------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | geo, spatiotemporal | (your notes) |
+
 
 ### Text / multimodal visualization
 
 > Visualization × NLP/MLLM/Multimodal (e.g., chart understanding, data-centric QA, structured extraction, LLM-assisted VA).
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2025 | arXiv | SimVecVis: A Dataset for Enhancing MLLMs in Visualization Understanding *(cross-ref)* | [See main entry](#simvecvis) | - | - | chart, mllm, vis-understanding |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | tag1, tag2 |
+
+| Year | Venue | Title                                                                                 | Paper                        | Project           | Code           | Tags                           | My take      |
+| ---- | ----- | ------------------------------------------------------------------------------------- | ---------------------------- | ----------------- | -------------- | ------------------------------ | ------------ |
+| 2025 | VIS   | SimVecVis: A Dataset for Enhancing MLLMs in Visualization Understanding *(cross-ref)* | [See main entry](#simvecvis) | -                 | -              | chart, mllm, vis-understanding | -            |
+| 20XX | Venue | Title                                                                                 | [[Paper]](link)              | [[Project]](link) | [[Code]](link) | tag1, tag2                     | (your notes) |
+
 
 ### Evaluation & reproducibility
 
 > Methodology papers: how to evaluate, user study methods, metrics, reproductions, diagnostics.
 > Reusable datasets and benchmark suites should go to the section below.
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2025 | arXiv | SimVecVis: A Dataset for Enhancing MLLMs in Visualization Understanding *(cross-ref)* | [See main entry](#simvecvis) | - | - | dataset, benchmark, evaluation |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | evaluation, reproducibility |
+
+| Year | Venue | Title                                                                                 | Paper                        | Project           | Code           | Tags                           | My take      |
+| ---- | ----- | ------------------------------------------------------------------------------------- | ---------------------------- | ----------------- | -------------- | ------------------------------ | ------------ |
+| 2025 | VIS   | SimVecVis: A Dataset for Enhancing MLLMs in Visualization Understanding *(cross-ref)* | [See main entry](#simvecvis) | -                 | -              | dataset, benchmark, evaluation | -            |
+| 20XX | Venue | Title                                                                                 | [[Paper]](link)              | [[Project]](link) | [[Code]](link) | evaluation, reproducibility    | (your notes) |
+
 
 ---
 
@@ -193,17 +219,21 @@ Cross-referencing the same paper across multiple sections (recommended):
 
 ### 2025
 
-<a id="simvecvis"></a>
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2025 | arXiv | SimVecVis: A Dataset for Enhancing MLLMs in Visualization Understanding | [[Paper]](https://arxiv.org/abs/2506.21319) | - | - | dataset, chart, mllm, vis-understanding |
+
+
+| Year | Venue | Title                                                                   | Paper                                       | Project | Code                                            | Tags                                    | My take                                                                                                                                                                                                                                                                                                                                                                                                    |
+| ---- | ----- | ----------------------------------------------------------------------- | ------------------------------------------- | ------- | ----------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2025 | VIS   | SimVecVis: A Dataset for Enhancing MLLMs in Visualization Understanding | [[Paper]](https://arxiv.org/abs/2506.21319) | -       | [[Code]](https://github.com/VIDA-Lab/SimVecVis) | dataset, chart, mllm, vis-understanding | 解决“多模态大模型看不懂图表”的问题，方法是设计一种简化的图表结构表示 SimVec，并配套构建数据集 SimVecVis 来训练模型，从而提升图表问答和可视化理解能力。 This work addresses the problem that multimodal large language models struggle to understand charts by introducing a simplified structured representation, SimVec, and constructing a corresponding dataset, SimVecVis, to train models, thereby improving chart question answering and visualization understanding. |
+
 
 ### Other years (placeholder)
 
-| Year | Venue | Title | Paper | Project | Code | Tags |
-| --- | --- | --- | --- | --- | --- | --- |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | tag1, tag2 |
+
+| Year | Venue | Title | Paper           | Project           | Code           | Tags       | My take      |
+| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ---------- | ------------ |
+| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | tag1, tag2 | (your notes) |
+
 
 ---
 
@@ -211,9 +241,11 @@ Cross-referencing the same paper across multiple sections (recommended):
 
 > Research systems (paper+code) and practical toolchains (rendering, web vis, interaction frameworks).
 
-| Name | Type | Link | Description | Tags |
-| --- | --- | --- | --- | --- |
-| Name | Repo/Tool/System | [[Link]](link) | One-line description | tool |
+
+| Name | Type             | Link           | Description          | Tags | My take      |
+| ---- | ---------------- | -------------- | -------------------- | ---- | ------------ |
+| Name | Repo/Tool/System | [[Link]](link) | One-line description | tool | (your notes) |
+
 
 ---
 
@@ -221,21 +253,27 @@ Cross-referencing the same paper across multiple sections (recommended):
 
 ### Courses
 
-| Name | Link | Notes |
-| --- | --- | --- |
-| Course Name | [[Link]](link) | - |
+
+| Name        | Link           | Notes | My take      |
+| ----------- | -------------- | ----- | ------------ |
+| Course Name | [[Link]](link) | -     | (your notes) |
+
 
 ### Books
 
-| Year | Title | Link | Notes |
-| --- | --- | --- | --- |
-| 20XX | Book Name | [[Link]](link) | - |
+
+| Year | Title     | Link           | Notes | My take      |
+| ---- | --------- | -------------- | ----- | ------------ |
+| 20XX | Book Name | [[Link]](link) | -     | (your notes) |
+
 
 ### Blogs / Tutorials
 
-| Title | Link | Notes |
-| --- | --- | --- |
-| Title | [[Link]](link) | - |
+
+| Title | Link           | Notes | My take      |
+| ----- | -------------- | ----- | ------------ |
+| Title | [[Link]](link) | -     | (your notes) |
+
 
 ---
 
