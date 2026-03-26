@@ -126,9 +126,10 @@ Cross-referencing the same paper across multiple sections (recommended):
 ### Visual analytics & interaction
 
 
-| Year | Venue | Title | Paper           | Project           | Code           | Tags                                  | My take      |
-| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ------------------------------------- | ------------ |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | interaction, visual-analytics, system | (your notes) |
+| Year | Venue | Title                                                                                                       | Paper                                     | Project           | Code           | Tags                                   | My take      |
+| ---- | ----- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ----------------- | -------------- | -------------------------------------- | ------------ |
+| 2025 | VIS   | Coordinated 2D-3D Visualization of Volumetric Medical Data in XR with Multimodal Interactions *(cross-ref)* | [See main entry](#vis-2025-liu-xr-medvis) | -                 | -              | xr, immersive, interaction, user-study | -            |
+| 20XX | Venue | Title                                                                                                       | [[Paper]](link)                           | [[Project]](link) | [[Code]](link) | interaction, visual-analytics, system  | (your notes) |
 
 
 ### Explainability & model visualization
@@ -174,9 +175,12 @@ Cross-referencing the same paper across multiple sections (recommended):
 ### Scientific visualization (SciVis)
 
 
-| Year | Venue | Title | Paper           | Project           | Code           | Tags                           | My take      |
-| ---- | ----- | ----- | --------------- | ----------------- | -------------- | ------------------------------ | ------------ |
-| 20XX | Venue | Title | [[Paper]](link) | [[Project]](link) | [[Code]](link) | scivis, volume-rendering, flow | (your notes) |
+
+
+| Year | Venue | Title                                                                                         | Paper                                       | Project           | Code           | Tags                                               | My take                                                                                                                                                                                                                                                                                                                                                                      |
+| ---- | ----- | --------------------------------------------------------------------------------------------- | ------------------------------------------- | ----------------- | -------------- | -------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2025 | VIS   | Coordinated 2D-3D Visualization of Volumetric Medical Data in XR with Multimodal Interactions | [[Paper]](https://arxiv.org/abs/2506.22926) | -                 | -              | scivis, medical, volume, xr, immersive, multimodal | 做了一个XR 医学可视化系统，输入 CT/MRI 体数据，输出2D 切片与 3D 网格模型联动显示，并支持手势 + LLM 语音交互，大幅提升医学影像理解效率 This paper developed an XR medical visualization system that takes CT/MRI volume data as input and provides coordinated display of 2D slices and 3D mesh models. It supports gesture and LLM-based voice interaction, significantly improving the efficiency of medical image understanding. |
+| 20XX | Venue | Title                                                                                         | [[Paper]](link)                             | [[Project]](link) | [[Code]](link) | scivis, volume-rendering, flow                     | (your notes)                                                                                                                                                                                                                                                                                                                                                                 |
 
 
 ### Geo & spatiotemporal visualization
@@ -192,10 +196,11 @@ Cross-referencing the same paper across multiple sections (recommended):
 > Visualization × NLP/MLLM/Multimodal (e.g., chart understanding, data-centric QA, structured extraction, LLM-assisted VA).
 
 
-| Year | Venue | Title                                                                                 | Paper                        | Project           | Code           | Tags                           | My take      |
-| ---- | ----- | ------------------------------------------------------------------------------------- | ---------------------------- | ----------------- | -------------- | ------------------------------ | ------------ |
-| 2025 | VIS   | SimVecVis: A Dataset for Enhancing MLLMs in Visualization Understanding *(cross-ref)* | [See main entry](#simvecvis) | -                 | -              | chart, mllm, vis-understanding | -            |
-| 20XX | Venue | Title                                                                                 | [[Paper]](link)              | [[Project]](link) | [[Code]](link) | tag1, tag2                     | (your notes) |
+| Year | Venue | Title                                                                                                       | Paper                                     | Project           | Code           | Tags                                | My take      |
+| ---- | ----- | ----------------------------------------------------------------------------------------------------------- | ----------------------------------------- | ----------------- | -------------- | ----------------------------------- | ------------ |
+| 2025 | VIS   | Coordinated 2D-3D Visualization of Volumetric Medical Data in XR with Multimodal Interactions *(cross-ref)* | [See main entry](#vis-2025-liu-xr-medvis) | -                 | -              | xr, multimodal, llm, voice, medical | -            |
+| 2025 | VIS   | SimVecVis: A Dataset for Enhancing MLLMs in Visualization Understanding *(cross-ref)*                       | [See main entry](#simvecvis)              | -                 | -              | chart, mllm, vis-understanding      | -            |
+| 20XX | Venue | Title                                                                                                       | [[Paper]](link)                           | [[Project]](link) | [[Code]](link) | tag1, tag2                          | (your notes) |
 
 
 ### Evaluation & reproducibility
